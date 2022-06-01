@@ -5,11 +5,7 @@ function onChangeHandler() {
   console.log('Entering password...');
 }
 function Keypad() {
-  return (
-    <div>
-      <input type="password" onChange={onChangeHandler} />
-    </div>
-  )
+  return <input type="password" onChange={onChangeHandler} />
 }
 
 export default Keypad;

@@ -10,11 +10,7 @@ function onFocusHandler() {
 }
 
 function EyesOnMe() {
-  return (
-    <div>
-      <button onBlur={onBlurHandler} onFocus={onFocusHandler}>Eyes on me</button>
-    </div>
-  )
+  return <button onBlur={onBlurHandler} onFocus={onFocusHandler}>Eyes on me</button>
 }
 
 export default EyesOnMe;
